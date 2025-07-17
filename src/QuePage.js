@@ -10,7 +10,7 @@ const QuePage = () =>{
         setQues(res.data)  
         setShow(true)  
     }
-    console.log(ques)
+    
     return (
         <div>
             {!show && <button onClick={()=>getQuestions()}
